@@ -14,6 +14,6 @@ int binary_search(int n){
 }//찾은 수의 인덱스를 반환 없으면 -1을 반환
 int main(){
     int n;//배열안에서 찾을 숫자
-    cin<<n;
+    cin>>n;
     cout<<binary_search(n);
 }
