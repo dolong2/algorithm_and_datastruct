@@ -1,3 +1,5 @@
+<h1>알고리즘 & 자료구조</h1>
+
 - **빅오표기법**
     - 알고리즘의 효율도를 분석하는 방법
     - **기본적으로, 알고리즘 최악의 경우의 복잡도를 측정**
@@ -8,11 +10,8 @@
     - 접근은 스택의 끝에서만 일어남
     - 뒤에 넣고 뒤에 있는 것을 빼는 LIFO(Last In First Out)
     - [명령어](https://www.notion.so/962e13d092f74a63aff103dc89911e88)
-    - 스택구조
 
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0182635-5413-46c4-9f37-50f762b5eec3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0182635-5413-46c4-9f37-50f762b5eec3/Untitled.png)
 
-    스택의 구조를 그림으로 나타낸 모습
 
     - 구현(c)
 
@@ -83,10 +82,6 @@
 - **큐**
     - 스택과 유사하지만 FIFO(First In First Out)방식을 사용한다
     - 접근이 스택의 앞과 뒤에서 일어남
-    - 큐 구조
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8a05a43-c5c7-4b47-842f-c86e55bb2633/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8a05a43-c5c7-4b47-842f-c86e55bb2633/Untitled.png)
-
     - [명령어](https://www.notion.so/941794de4b0248cfaeb68b08181d03a7)
     - 구현(c)
 
@@ -158,10 +153,6 @@
     - 검색하지 않을 때 사용하기 용이함
     - 데이터 접근을 앞 뒤에서 다 할 수 있어서 접근을 무작위로 하고 싶을 때 용이함
     - 구현을 연결 리스트로 할 수 있음
-    - 데큐 구조
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e482ae8-d96b-4265-a4d2-127570376390/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e482ae8-d96b-4265-a4d2-127570376390/Untitled.png)
-
     - [명령어](https://www.notion.so/66d0c0f502a24f65b48b5ae8c4898e18)
     - 구현(c)
 
