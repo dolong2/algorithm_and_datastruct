@@ -18,7 +18,7 @@ int main(){
             continue;//0번째 노드는 연결될 부모노드가 읍따!!
         }
         cin>>parent>>data;
-        nodes[parent].right!=NULL?nodes[parent].right=&nodes[i]:nodes[parent].left=&nodes[i];
+        nodes[parent].left==NULL?nodes[parent].left=&nodes[i]:nodes[parent].right=&nodes[i];
         nodes[i].data=data;
     }
     for(auto i:nodes){
