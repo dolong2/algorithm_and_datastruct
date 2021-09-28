@@ -1,30 +1,32 @@
 #include<iostream>
 using namespace std;
-
-void Inorder(node *node){
-    Inorder(node->left);
-    cout<<node->data<<" ";
-    Inorder(node->right);
-}
-typedef struct node{
+class Tree {
+public:
     int data;
-    node *right,*left;
-}node;
-int main(){
-    int n;//노드의 수
-    cin>>n;
-    node nodes[n];
-    for(int i=0;i<n;i++){nodes[i].right=NULL;nodes[i].left=NULL;}//초기화
-    for(int i=0;i<n;i++){
-        int parent,data;//연결될 부모노드와 데이터입력
-        if(i==0){
-            cin>>data;//scanf("%d",&data);
-            nodes[i].data=data;
-            continue;//0번째 노드는 연결될 부모노드가 읍따!!
-        }
-        cin>>parent>>data;
-        nodes[parent].left==NULL?nodes[parent].left=&nodes[i]:nodes[parent].right=&nodes[i];
-        nodes[i].data=data;
+    Tree* left, * right;
+};
+void InOrder(Tree* tree) {
+    if (tree != NULL) {
+        InOrder(tree->left);
+        cout << tree->data << endl;
+        InOrder(tree->right);
     }
-    Inorder(&nodes[0]);
+}
+int main() {
+    int n;
+    cin >> n;
+    Tree tree[101];//n이 100보다 작다
+    for (int i = 1; i <= n+1;i++) {
+        tree[i].data = 0;
+        tree[i].left = nullptr;
+        tree[i].right = nullptr;
+    }
+    tree[1].data = 1;
+    for (int i = 0; i < n; i++) {
+        int x, y;//x 부모,y 자식
+        cin >> x >> y;
+        tree[y].data = y;
+        tree[x].left == nullptr ? tree[x].left = &tree[y] : tree[x].right = &tree[y];
+    }
+    InOrder(&tree[1]);
 }
