@@ -12,7 +12,7 @@
     - [명령어](https://www.notion.so/962e13d092f74a63aff103dc89911e88)
     - 스택구조
         
-        ![stack.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fe7b218f-d323-4100-b63d-c00c8757c504/stack.gif)
+        ![stack.gif](./img/stack.gif)
         
     
     스택의 구조를 그림으로 나타낸 모습
@@ -89,7 +89,7 @@
     - 접근이 스택의 앞과 뒤에서 일어남
     - 큐 구조
     
-    ![queue.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e6ed6a0-0e85-4ae9-a39a-6143cb431108/queue.gif)
+    ![queue.gif](./img/queue.gif)
     
     - [명령어](https://www.notion.so/941794de4b0248cfaeb68b08181d03a7)
     - 구현(c)
@@ -165,7 +165,7 @@
     - 구현을 연결 리스트로 할 수 있음
     - 데큐 구조
     
-    ![dequeue.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2b351b7a-c17b-4ab3-93ff-3b0b35d30f10/dequeue.gif)
+    ![dequeue.gif](./img/dequeue.gif)
     
     - [명령어](https://www.notion.so/66d0c0f502a24f65b48b5ae8c4898e18)
     - 구현(c)
@@ -318,7 +318,7 @@
     
     - **DFS**(깊이 우선 탐색)
         
-        [https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile10.uf.tistory.com%2Fimage%2F99D8C0365C762AC5288368](https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile10.uf.tistory.com%2Fimage%2F99D8C0365C762AC5288368)
+        ![DFS](./img/dfs.gif)
         
         그래프를 갈 수 있는 만큼 깊이 가고
         
@@ -328,7 +328,7 @@
         
     - **BFS**(넓이 우선 탐색)
         
-        ![https://blog.kakaocdn.net/dn/bLMK90/btqKrJ9aUXI/hvWf1krFJb6R0WlIKx1Vk0/img.gif](https://blog.kakaocdn.net/dn/bLMK90/btqKrJ9aUXI/hvWf1krFJb6R0WlIKx1Vk0/img.gif)
+        ![BFS](./img/bfs.gif)
         
         시작 정점을 방문하고 시작 정점에 인접한 모든 정점을 방문하는 방식
         
