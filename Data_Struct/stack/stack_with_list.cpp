@@ -42,9 +42,11 @@ int main() {
   Node* back = nullptr;
   while (true) {//S를 입력 받으면 멈춤
     string order;
+    cout<<"명령어 입력: ";
     cin >> order;
     if (order == "Stop" || order == "stop") {
         cout << "종료합니다" << endl;
+        break;
     }
     else if (order == "push" || order == "Push") {
         int data;
