@@ -263,6 +263,7 @@
     - [버블정렬](https://www.notion.so/02d6d4a3523c4c72b1b5aa18fa313840)
     - 퀵정렬
     - 합병정렬
+    - [쉘정렬](https://www.notion.so/f1c6aabaf8c24a308179a2f0baff5fac)
 
 - **그래프(Graph)**
     
@@ -723,7 +724,6 @@
       }
     } 
     ```
-
 ---
 
 [스택 명령어](https://www.notion.so/962e13d092f74a63aff103dc89911e88)
