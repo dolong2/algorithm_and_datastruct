@@ -15,8 +15,8 @@
     
 
 - **서치(알고리즘)**
-    - [선형서치(Linear Search)](https://www.notion.so/596715d04a104c52a6193e258fc07908)
-    - [이진서치(Binary Search)](https://www.notion.so/c8b7a6fc4bd24627969c4ad99f09d99c)
+    - [선형서치(Linear Search)](Algorithm/search/linearsearch/linearsearch.md)
+    - [이진서치(Binary Search)](Algorithm/search/binarysearch/binarysearch.md)
 
 - **정렬(알고리즘)**
     - [선택정렬](https://www.notion.so/52423fe830844d14a1916226ebff84ab)
