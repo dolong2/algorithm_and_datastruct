@@ -19,12 +19,12 @@
     - [이진서치(Binary Search)](Algorithm/search/binarysearch/binarysearch.md)
 
 - **정렬(알고리즘)**
-    - [선택정렬](https://www.notion.so/52423fe830844d14a1916226ebff84ab)
-    - [삽입정렬](https://www.notion.so/0482368a4c1e419bbd1b68e49d7475a0)
-    - [버블정렬](https://www.notion.so/02d6d4a3523c4c72b1b5aa18fa313840)
+    - [선택정렬](Algorithm/sort/선택정렬/선택정렬.md)
+    - [삽입정렬](Algorithm/sort/삽입정렬/insertSort.md)
+    - [버블정렬](Algorithm/sort/버블정렬/bubbleSort.md)
     - 퀵정렬
     - 합병정렬
-    - [쉘정렬](https://www.notion.so/f1c6aabaf8c24a308179a2f0baff5fac)
+    - [쉘정렬](Algorithm/sort/쉘정렬/shellSort.md)
 
 - **그래프(Graph)**
     
