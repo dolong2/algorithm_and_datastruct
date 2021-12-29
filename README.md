@@ -245,20 +245,3 @@
       }
     } 
     ```
----
-
-[스택 명령어](https://www.notion.so/962e13d092f74a63aff103dc89911e88)
-
-[큐 명령어](https://www.notion.so/941794de4b0248cfaeb68b08181d03a7)
-
-[선형서치](https://www.notion.so/596715d04a104c52a6193e258fc07908)
-
-[이진서치](https://www.notion.so/c8b7a6fc4bd24627969c4ad99f09d99c)
-
-[삽입정렬](https://www.notion.so/0482368a4c1e419bbd1b68e49d7475a0)
-
-[덱 명령어](https://www.notion.so/66d0c0f502a24f65b48b5ae8c4898e18)
-
-[버블정렬](https://www.notion.so/02d6d4a3523c4c72b1b5aa18fa313840)
-
-[선택정렬](https://www.notion.so/52423fe830844d14a1916226ebff84ab)
