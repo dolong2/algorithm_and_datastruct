@@ -34,41 +34,8 @@
 
 - [**리스트(List)**](./Data_Struct/List/List.md)
 
-- **유클리드 알고리즘** 
-  - 두수의 최대공약수를 구하는 알고리즘
-  - 두수 a,b와 나머지를 r이라고 하면 a와b의 최대공약수는 b와 r의 최대공약수와 같다
-  - 즉 b를 r로 나눈 나머지 r2를 구하고 다시 r을 r2로 나눈 나머지를 구하는 과정을 반복하여 나머지가 0이 되었을 때 나누는 수가 a와 b의 최대공약수이다
-    ## 코드     
-    반복문을 사용해서 구하는 방법과 재귀 함수를 사용하는 방법이 있다 
-    ```cpp
-    //반복문을 사용해서 구현
-    #include<iostream>
-    using namespace std;
-    int main(){
-      int a,b;
-      cin>>a>>b;
-      while(b){
-          int temp=a;
-          a=b;
-          b=temp%a;
-      }
-      cout<<a<<endl;
-    }
-    ```
+- [**유클리드 알고리즘**](./Algorithm/euclid/euclid.md)
 
-    ```cpp
-    //재귀 함수+3항 연산자(3항 연산자 모르면 구글링 하셈)
-    #include<iostream>
-    using namespace std;
-    int gcd(a,b){
-      return b!=0?gcd(b,a%b):a;
-    }
-    int main(){
-      int a,b;
-      cin>>a>>b;
-      cout<<gcd(a,b);
-    }
-    ```
 - **비트 마스킹** 
   - 정의
     - 정수의 이진수 표현을 자료구조로 쓰는 기법
