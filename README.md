@@ -34,6 +34,6 @@
 
 - [**리스트(List)**](./Data_Struct/List/List.md)
 
-- [**유클리드 알고리즘**](./Algorithm/euclid/euclid.md)
+- [**유클리드 알고리즘**](./Algorithm/euclid_Algorithm/euclid.md)
 
 - [**비트 마스킹**](./Algorithm/Bit_Masking/bit_masking.md)
