@@ -1,50 +1,47 @@
 #include<iostream>
+
 using namespace std;
 class node{
-  public:
-  int data;
-  node *left,*right;
-  node(int key){
-    data=key;
-    left=nullptr;
-    right=nullptr;
+private:
+int value;
+public:
+  node *right;
+  node *left;
+  node(int value){
+    this->value=value;
+  }
+  int getValue(){
+    return this->value;
+  }
+  void insert(int value){
+    if(this->value < value){
+      if(right==nullptr){
+        this->right=new node(value);
+      }
+      else{
+        this->right->insert(value);
+      }
+    }
+    else{
+      if(left==nullptr){
+        this->left=new node(value);
+      }
+      else{
+        this->left->insert(value);
+      }
+    }
   }
 };
 
-node *insert(node *head,int key){
-  if(head==nullptr){
-    return new node(key);
-  }
-  else if(key>head->data){
-    head->right=insert(head->right,key);
-  }
-  else{
-    head->left=insert(head->right,key);
-  }
-  return head;
-}
-void postOrder(node *head){
-  if(head!=nullptr){
-    postOrder(head->left);
-    postOrder(head->right);
-    cout<<head->data<<endl;
-  }
-  else{
-    return;
-  }
-}
 int main(){
-  int n;
-  scanf("%d",&n);
-  node *head;
-  for(int i=0;i<n;i++){
-    int data;
-    scanf("%d",&data);
-    if(i==0){
-      head=insert(head,data);
-    }
-    else{
-      insert(head,data);
-    }
-  }
+  ios::sync_with_stdio(false);
+  cin.tie(0);
+  node *root=new node(4);
+  root->insert(3);
+  root->insert(2);
+  root->insert(8);
+  root->insert(1);
+  root->insert(7);
+  root->insert(9);
+  cout<<root->right->left->getValue();
 }
