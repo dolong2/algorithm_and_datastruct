@@ -15,13 +15,7 @@
     - [선형서치(Linear Search)](Algorithm/search/linearsearch/linearsearch.md)
     - [이진서치(Binary Search)](Algorithm/search/binarysearch/binarysearch.md)
 
-- **정렬(알고리즘)**
-    - [선택정렬](Algorithm/sort/선택정렬/선택정렬.md)
-    - [삽입정렬](Algorithm/sort/삽입정렬/insertSort.md)
-    - [버블정렬](Algorithm/sort/버블정렬/bubbleSort.md)
-    - [퀵정렬](Algorithm/sort/퀵정렬/quickSort.md)
-    - 합병정렬
-    - [쉘정렬](Algorithm/sort/쉘정렬/shellSort.md)
+- [**정렬(알고리즘)**](Algorithm/sort/sort.md)
 
 
 - [**그래프(Graph)**](./Data_Struct/Graph/graph.md)
