@@ -16,13 +16,13 @@
 - [**정렬(알고리즘)**](Algorithm/sort/sort.md)
 
 
-- [**그래프(Graph)**](./Data_Struct/Graph/graph.md)
+- [**그래프(Graph)**](Data_Struct/Graph/graph.md)
         
 
-- [**트리(tree)**](./Data_Struct/tree/tree.md)
+- [**트리(tree)**](Data_Struct/tree/tree.md)
 
-- [**리스트(List)**](./Data_Struct/List/List.md)
+- [**리스트(List)**](Data_Struct/List/List.md)
 
-- [**유클리드 알고리즘**](./Algorithm/euclid_Algorithm/euclid.md)
+- [**유클리드 알고리즘**](Algorithm/euclid_Algorithm/euclid.md)
 
-- [**비트 마스킹**](./Algorithm/Bit_Masking/bit_masking.md)
+- [**비트 마스킹**](Algorithm/Bit_Masking/bit_masking.md)

@@ -7,4 +7,4 @@
     - [ 코드 ](deque.c++)
     - 데큐 구조
     
-    ![dequeue.gif](./dequeue.gif)
+    ![dequeue.gif](dequeue.gif)

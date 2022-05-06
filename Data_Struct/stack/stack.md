@@ -7,7 +7,7 @@
 - [코드(array)](stack.c)
 - 스택구조
         
-    ![stack.gif](./stack.gif)
+    ![stack.gif](stack.gif)
         
     
     스택의 구조를 그림으로 나타낸 모습
