@@ -11,9 +11,7 @@
 - [ **덱(dequeue)** ](Data_Struct/dequeue/dequeue.md)
     
 
-- **서치(알고리즘)**
-    - [선형서치(Linear Search)](Algorithm/search/linearsearch/linearsearch.md)
-    - [이진서치(Binary Search)](Algorithm/search/binarysearch/binarysearch.md)
+- [**서치(알고리즘)**](Algorithm/search/search.md)
 
 - [**정렬(알고리즘)**](Algorithm/sort/sort.md)
 

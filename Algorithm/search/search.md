@@ -1,0 +1,2 @@
+- [선형서치(Linear Search)](linearsearch/linearsearch.md)
+- [이진서치(Binary Search)](binarysearch/binarysearch.md)
