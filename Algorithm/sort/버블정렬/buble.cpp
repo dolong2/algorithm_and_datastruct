@@ -14,5 +14,5 @@ void bubble_sort(int *arr,int arr_len){
 int main(){
   int arr[6]={2,9,5,3,8,1};
   bubble_sort(arr,6);
-  for(int i=0;i<6;i++){printf("%d ",arr[i]);}
+  for(int i=0;i<6;i++){cout<<arr[i]<<" ";}
 }

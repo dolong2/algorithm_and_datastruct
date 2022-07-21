@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 void intsertion_sort(int arr[],int n){
   int key,j;
   for(int i=1;i<n;i++){
@@ -12,5 +13,6 @@ void intsertion_sort(int arr[],int n){
 int main(){
   int arr[10]={3,9,2,1,8,5,7,6,4,10};
   intsertion_sort(arr,10);
-  for(int i=0;i<10;i++)printf("%d ",arr[i]);
+  for(int i=0;i<10;i++)
+    cout<<arr[i]<<" ";
 }

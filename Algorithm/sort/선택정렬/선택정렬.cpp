@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 void selection_sort(int *arr,int arr_len){
   for(int i=0;i<arr_len;i++){
     int min=1000,min_index;
@@ -17,6 +18,6 @@ int main(){
   int arr[5]={2,9,5,3,8};
   selection_sort(arr,5);
   for(int i=0;i<5;i++){
-    printf("%d ",arr[i]);
+    cout<<arr[i]<<" ";
   }
 }

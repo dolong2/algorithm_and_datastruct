@@ -11,12 +11,13 @@ void gap_sort(int arr[],int size){
 	}
 }
 void insertInsection(int arr[],int start,int last,int gap){
+	int i,j;
 	for (i = start+ gap; i <= last; i += gap){
-    int key = list[i];
-    for (j = i - gap; j >= start&& list[j] > key; j -= gap){
-      list[j + gap] = list[j];
+    int key = arr[i];
+    for ( j = i - gap; j >= start&& arr[j] > key; j -= gap){
+      arr[j + gap] = arr[j];
     }
-    list[j + gap] = key;
+    arr[j + gap] = key;
 	}
 }
 int main(){
@@ -26,6 +27,6 @@ int main(){
 	}
 	gap_sort(arr,10);
 	for(int i=0;i<10;i++){
-		cout>>arr[i]<<" ";
+		cout<<arr[i]<<" ";
 	}
 }
