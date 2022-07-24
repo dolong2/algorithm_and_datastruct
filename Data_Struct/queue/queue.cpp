@@ -1,5 +1,6 @@
-#include<stdio.h>
+#include<iostream>
 #include<string.h>
+using namespace std;
 typedef struct queue{
   int front;
   int back;
@@ -36,7 +37,7 @@ void back(queue *que){
 int main(){
     queue que;
     int n;
-    scanf("%d",&n);
+    cin>>n;
     for(int i=0;i<n;i++){
       char order[6];
       scanf("%s",order);

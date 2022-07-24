@@ -1,5 +1,6 @@
-#include<stdio.h>
+#include<iostream>
 #include<string.h>
+using namespace std;
 typedef  struct stack{
 	int top;
 	int data[10000];
